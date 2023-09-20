@@ -11,6 +11,8 @@ using std::string;
 using std::to_string;
 using std::vector;
 
+// constructor
+Process::Process(int pid_) : pid{pid_} {}
 // TODO: Return this process's ID
 int Process::Pid()
 {
